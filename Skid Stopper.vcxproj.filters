@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Security">
+      <UniqueIdentifier>{33c9142e-4afe-4be4-ace5-acba1f7aa07e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection">
+      <UniqueIdentifier>{2fdba9cc-e009-46c4-a3f6-9316f189a01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapper">
+      <UniqueIdentifier>{a0865b2e-3206-45ae-9a00-eacd53667a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection\Remap">
+      <UniqueIdentifier>{23190dbd-b251-4e59-b93c-a0cdd178c961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection\Antidebug">
+      <UniqueIdentifier>{01473838-54db-450f-a167-874e231da951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection\Antivm">
+      <UniqueIdentifier>{6b780b4d-80e0-44e1-b11a-c7fd7f81a386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Auth">
+      <UniqueIdentifier>{f3dc2209-bc12-4634-b5c5-ab0e49bf40f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection\Obfuscation">
+      <UniqueIdentifier>{b0a2047e-ce8a-46eb-93d1-ce7e80b9fe32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Security\Protection\Encryption">
+      <UniqueIdentifier>{64460605-8eff-41cc-b945-c62fcd79545f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Skid Stopper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="oxorany.cpp">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\intel_driver.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\kdmapper.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\MemoryAccessor.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\portable_executable.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\service.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapper\utils.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="remap.cpp">
+      <Filter>Source Files\Security\Protection\Remap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Skid Stopper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="encrypt.h">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.h">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany.h">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany_include.h">
+      <Filter>Source Files\Security\Protection\Encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="spoof.h">
+      <Filter>Source Files\Security\Protection\Obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="obfuscator.h">
+      <Filter>Source Files\Security\Protection\Obfuscation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\ezpdb.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\intel_driver.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\kdmapper.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\MemoryAccessor.h">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\nt.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\portable_executable.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\rtcore64_driver_resource.h">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\service.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapper\utils.hpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="rtcore.h">
+      <Filter>Source Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Source Files\Security</Filter>
+    </ClInclude>
+    <ClInclude Include="remap.hpp">
+      <Filter>Source Files\Security\Protection\Remap</Filter>
+    </ClInclude>
+    <ClInclude Include="resetpeb.h">
+      <Filter>Source Files\Security\Protection\Antidebug</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Source Files\Security\Protection\Antidebug</Filter>
+    </ClInclude>
+    <ClInclude Include="antidbg.h">
+      <Filter>Source Files\Security\Protection\Antidebug</Filter>
+    </ClInclude>
+    <ClInclude Include="antivm.h">
+      <Filter>Source Files\Security\Protection\Antivm</Filter>
+    </ClInclude>
+    <ClInclude Include="auth_header.h">
+      <Filter>Source Files\Security\Auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ntdll.hpp">
+      <Filter>Source Files\Security\Protection\Remap</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="auth.lib">
+      <Filter>Source Files\Security\Auth</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Source Files\Security\Auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
